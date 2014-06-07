@@ -1,0 +1,206 @@
+/*---------Hi [:---------*/
+
+html, body {
+    height: 100%;}
+
+body {
+    font-family: 'Asap', sans-serif;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    color: white;
+    text-align: center;
+        -webkit-transition: all 4s ease-in-out;
+        -moz-transition: all 4s ease-in-out;
+        -o-transition: all 4s ease-in-out;
+        -ms-transition: all 4s ease-in-out;
+    transition: all 4s ease-in-out;}
+
+a {
+    color: #2C3642;
+    text-decoration: none;}
+
+h1 {
+    font-size: 4rem;
+    max-width: 70%;
+    margin: auto;}
+
+h2 {
+    text-shadow: 0 0.2rem 0 rgba(0,0,0,0.1);
+    margin: 7rem auto 2rem auto;
+    font-size: 3rem;}
+
+/*---------HEADER---------*/
+
+.heady {
+background: #EEEEEE url(http://bit.ly/UfawFt) no-repeat center center; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        -ms-background-size: contain;
+    background-size: contain;    
+    display: inline-block;
+    height: 100%;       
+    position: relative;    
+    width: 101%;
+    z-index: 2;}
+
+.triggerone {        
+        -webkit-animation: bouncy 1s 2s 15 normal;
+    color: #00B4B1;    
+    font-size: 4rem;    
+    left: 50%;
+    margin-left: -2rem;    
+    position: absolute;
+    text-shadow: 0 10px 0 rgba(255,255,255,1);
+        -webkit-transition: all 0.2s ease-in-out;
+    top: 88%;}
+
+.triggerone:hover {    
+    color: #00E7E3;
+    text-shadow: 0 8px 0px rgba(255,255,255,1);
+    top: 89%;    
+    left: 50%;
+    margin-left: -2rem;
+    position: absolute;
+    top: 89%;}
+
+
+/*---------NAV---------*/
+
+.navy {
+    background-color: #F4F4F4;   
+    font-size: 1.5rem;  
+    height: 5rem;
+    overflow: hidden;
+    position: fixed;
+    text-align: left; 
+    top: 0;  
+    width: 100%;
+    z-index: 1;}
+
+.logo {
+     background: url(http://bit.ly/1i6sRJM) no-repeat center center; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        -ms-background-size: contain;
+    background-size: contain;
+    height: 4rem;
+    left: 0.5rem;
+    top: 0.5rem;
+    width: 20%;}
+
+.logo a {
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 100%;}
+
+.navigation {
+    height: auto;
+    left: 20%;
+    top: 0.1rem;
+    width: 80%;}
+
+.logo, 
+.navigation {   
+    position: absolute;    
+    display: inline;}
+
+.navigation li {
+    display: inline;
+    padding: 0.5rem 1rem;
+    text-align: left;}
+
+.n_n {
+    background-color: #3FA9F5;
+    box-shadow: 0 8px 0 #0F93F3; 
+    border-radius: 10px;    
+    text-shadow: 0 2px 0 rgba(0,0,0,0.1);
+        -webkit-transition: all 0.3s ease-in-out;}
+
+.n_n a {
+    color: #FFFFFF;}
+
+.n_n:hover {
+    background-color: #00B4B1;
+    box-shadow: 0 8px 0 #009A98;}
+
+
+
+
+/*---------TOP BUTTON---------*/
+
+.top {
+        -webkit-animation: bouncyone 1s 2s 10 normal;
+    color: rgba(255,255,255, 0.3);
+    font-size: 4rem; 
+    left: 93%;    
+    opacity: 0.8;
+    overflow: hidden;
+    position: fixed;  
+    text-shadow: 0 5px 2px rgba(0,0,0,0.05);
+    top: 87%;
+        -webkit-transition: all 0.5s ease-in-out;
+    z-index: 1;}
+
+.top:hover {    
+    opacity: 1;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.05);
+    top: 85%;}
+
+/*---------SECTION BLOCK---------*/
+
+ section, footer {
+    display: inline-block;
+    height: 95%;    
+    width: 101%;}
+
+.servicios,
+.portfolio,
+.contactenos {
+    z-index: 0;}
+
+.inicio {
+    background-color: #3FA9F5;
+    position: relative;
+    margin: 0;    
+    z-index: 2;}
+
+.servicios {
+    background-color:  #54C99A ;}
+
+.portfolio {
+    background-color: #FFA500 ;}
+
+.contactenos {
+    background-color: #F4794D;}
+
+/*---------FOOTER---------*/
+
+.footy {
+    background-color: #0D6EB2;}
+
+/*---------KEYFRAMES---------*/
+
+@-webkit-keyframes bouncy {
+    0% {
+        color: #00E7E3;
+        text-shadow: 0 10px 0 rgba(255,255,255,1);}
+    
+    100% { 
+        color: #00E7E3;
+        text-shadow: 0 5px 0px rgba(255,255,255,1);
+        top: 89%;} }
+
+@-webkit-keyframes bouncyone {
+    0% {     
+        opacity: 0.8;}
+        
+    100% {         
+        left: 93%; 
+        opacity: 0.6;
+        top: 85%;} }
+
+
+
